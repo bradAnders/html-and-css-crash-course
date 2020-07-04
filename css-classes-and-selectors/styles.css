@@ -1,0 +1,55 @@
+/* p.error{ /* p elements of type error
+  color: red;
+}
+p.success{ /* p elements that inherit from success
+  color: forestgreen;
+}
+p.success.feedback{ /* p elements that inherit from success and feedback
+  border: 1px dashed forestgreen;
+}
+div#content{ /* div elements of id content
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+/* div .error{ /* elements of type error inside a div element
+  color: mediumpurple;
+}
+div.error{ /* div elements of type error
+  color: blue;
+} */
+/* a[href]{ /* a elements with attributes href
+  background-color: greenyellow;
+}
+a[href="https://www.google.com"]{ /* ^^ but with specific href
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+/* a[href*="google"]{ /* ^^ but with href containing
+  color: white;
+  background: red;
+  border: 2px solid blue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+/* } */
+/* a[href$='com']{ /* only ending with "com"
+  color: white;
+  background-color: blue;
+  border: 2px solid red;
+} */
+div{
+  color: lightcoral;
+  border: 1px solid gray;
+  margin: 40px;
+  font-weight: bold;
+}
+div p{
+  color: crimson;
+  border: inherit;
+  margin: inherit;
+}
+p{
+  color: darkorange;
+}
