@@ -1,0 +1,33 @@
+h1{
+  color: orange;
+  background-color: slategrey;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: arial; /* Use a web-safe font! */
+  text-align: center;
+}
+p{
+  color: slategrey;
+  text-align: justify;
+  line-height: 30px;
+  letter-spacing: 0.01px;
+  column-count: 2;
+  column-gap: 30px;
+}
+:root{
+  --ul-bg-color: rgba(200, 129, 226, 0.54);
+}
+ul{
+  /* border-width: 4px;
+  border-style: ridge;
+  border-color: var(--ul-bg-color); */
+  /* border: 4px solid var(--ul-bg-color); */
+  border-bottom: 4px solid var(--ul-bg-color);
+  border-left: 8px dashed var(--ul-bg-color);
+  border-top: 2px dotted var(--ul-bg-color);
+}
+li{
+  list-style-type: none;
+  /* text-shadow: 2px 2px lightgray; */
+  text-shadow: 2px 2px #fff0f0;
+}
